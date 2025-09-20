@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fishing in Norway - Your Complete Norwegian Fishing Guide</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        .app-icon {
+            font-size: 72px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #2c5282;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        .tagline {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .feature {
+            background-color: #f7fafc;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #e2e8f0;
+        }
+        .feature-icon {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .feature h3 {
+            color: #2d3748;
+            margin: 10px 0;
+        }
+        .links {
+            margin: 40px 0;
+        }
+        .link-button {
+            display: inline-block;
+            background-color: #2c5282;
+            color: white;
+            padding: 12px 24px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .link-button:hover {
+            background-color: #2a4c7a;
+        }
+        .link-button.secondary {
+            background-color: #4a5568;
+        }
+        .link-button.secondary:hover {
+            background-color: #424954;
+        }
+        .app-preview {
+            background-color: #e6f3ff;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 40px 0;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 36px;
+            font-weight: bold;
+            color: #2c5282;
+            display: block;
+        }
+        .stat-label {
+            color: #666;
+            font-size: 14px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            color: #666;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            .features {
+                grid-template-columns: 1fr;
+            }
+            .stats {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-icon">🎣</div>
+        <h1>Fishing in Norway</h1>
+        <p class="tagline">Your Complete Norwegian Fishing Guide</p>
+        
+        <div class="app-preview">
+            <h2>Transform Your Norwegian Fishing Experience</h2>
+            <p>Discover Norway's spectacular waters with the most comprehensive fishing app ever created for Norwegian anglers and tourists.</p>
+            
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-number">146+</span>
+                    <span class="stat-label">Fishing Locations</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Fish Species</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">400+</span>
+                    <span class="stat-label">Weather Locations</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">📍</div>
+                <h3>Premium Locations</h3>
+                <p>Hand-curated fishing spots across all Norwegian regions from Lofoten to Southern Coast</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">⛅</div>
+                <h3>Weather Intelligence</h3>
+                <p>Real-time fishing conditions, 7-day forecasts, and condition ratings</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">📖</div>
+                <h3>Digital Catch Log</h3>
+                <p>Photo documentation, measurements, and progress tracking</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">⚖️</div>
+                <h3>Regulations Guide</h3>
+                <p>Complete Norwegian fishing laws, licenses, and size limits by region</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🗺️</div>
+                <h3>Offline Maps</h3>
+                <p>GPS coordinates and detailed information available without internet</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🎯</div>
+                <h3>Smart Search</h3>
+                <p>Filter by difficulty, species, water type, and license requirements</p>
+            </div>
+        </div>
+
+        <div class="links">
+            <h2>Coming Soon to the App Store</h2>
+            <p>While we prepare for launch, you can:</p>
+            
+            <a href="support.html" class="link-button">📞 Get Support</a>
+            <a href="privacy-policy.html" class="link-button secondary">🔒 Privacy Policy</a>
+        </div>
+
+        <div class="app-preview">
+            <h3>🇳🇴 Authentic Norwegian Experience</h3>
+            <p>Created by fishing enthusiasts for the Norwegian fishing community. Whether you're casting from Nordkapp's dramatic cliffs or trolling in Geirangerfjord's pristine waters, this app is your trusted companion.</p>
+            
+            <p><strong>Perfect for:</strong></p>
+            <div style="text-align: left; display: inline-block;">
+                <p>🎣 <strong>Local Anglers:</strong> Discover new spots and hidden gems</p>
+                <p>🌍 <strong>Tourists:</strong> Experience authentic Norwegian fishing</p>
+                <p>👨‍👩‍👧‍👦 <strong>Families:</strong> Find safe, beginner-friendly locations</p>
+                <p>🏆 <strong>Experts:</strong> Challenge yourself with remote wilderness spots</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 BNTF Apps. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="privacy-policy.html" style="color: #2c5282; text-decoration: none;">Privacy Policy</a> | 
+                <a href="support.html" style="color: #2c5282; text-decoration: none;">Support</a> | 
+                <a href="mailto:support@fishingnorway-app.com" style="color: #2c5282; text-decoration: none;">Contact</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
